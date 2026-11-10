@@ -64,9 +64,9 @@ Interrupt-handlerne sætter kun flag og tæller ticks. Al udskrivning sker i mai
 
 | Testcase | Forventet | Faktisk |
 |---|---|---|
-| Opstart | Time-mode, LD=`1000` | |
-| C cykler modes | Rækkefølge og LEDs som ovenfor | |
-| Speedup | 10x / 20x / 30x / 60x | |
-| Setting + hold A | Hurtig fremrykning efter 2 s | |
-| Stopur net time | Visning fryser, tiden løber | |
-| Alarm | LEDs blinker, stopper ved tryk | |
+| Opstart | Time-mode, LD=`1000` | Virker |
+| C cykler modes | Rækkefølge og LEDs som ovenfor | Virker |
+| Speedup | 10x / 20x / 30x / 60x | Virker |
+| Setting + hold A | Hurtig fremrykning efter 2 s | Virker |
+| Stopur net time | Visning fryser, tiden løber | Virker |
+| Alarm | LEDs blinker, stopper ved tryk | Virker |
